@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>KA Technologies</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+    }
+    
+    #background-image {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      z-index: -1;
+      animation: animatedBackground 10s infinite;
+    }
+    
+    @keyframes animatedBackground {
+      0% {
+        background-color: rgba(218, 165, 32, 0);
+      }
+      50% {
+        background-color: rgba(218, 165, 32, 0.5);
+      }
+      100% {
+        background-color: rgba(218, 165, 32, 0);
+      }
+    }
+    
+    h1 {
+      text-align: center;
+      color: white;
+      padding: 20px;
+      background-color: rgba(0, 0, 0, 0.5);
+      /* You can adjust the background color and transparency above */
+    }
+    
+    h2 {
+      text-align: center;
+      color: black;
+      font-size: 24px;
+      margin: 10px 0;
+      animation-duration: 1s;
+      animation-name: jump;
+      animation-fill-mode: both;
+    }
+    
+    @keyframes jump {
+      0%, 20%, 50%, 80%, 100% {
+        transform: translateY(0);
+      }
+      40% {
+        transform: translateY(-20px);
+      }
+      60% {
+        transform: translateY(-10px);
+      }
+    }
+    
+    .paragraph {
+      text-align: center;
+      color: white;
+      font-size: 16px;
+      margin: 20px auto;
+      width: 80%;
+      max-width: 600px;
+    }
+    
+    .copyright {
+      text-align: center;
+      color: white;
+      font-size: 14px;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+  <div id="background-image"></div>
+  
+  <h1>KA Technologies</h1>
+  <h2 style="font-family: 'Arial Black', sans-serif;">Hemachandiran</h2>
+  <h2 style="font-family: 'Arial Black', sans-serif;">Elavarasan</h2>
+  <h2 style="font-family: 'Arial Black', sans-serif;">Praveen</h2>
+  <h2 style="font-family: 'Arial Black', sans-serif;">Jagadeesh Babu</h2>
+  
+  <div class="paragraph">
+    <p>KA Technologies is a dynamic and innovative tech company that emerged in 2023 through the collective efforts of a group of talented individuals hailing from Pondicherry. These brilliant minds honed their skills while studying at the esteemed St. Joseph HR Sec School, fostering a deep passion for technology and its potential to revolutionize industries.</p>
+    <p>At KA Technologies, their primary focus lies in developing cutting-edge products that cater to the evolving needs of businesses worldwide. With a diverse range of expertise, they specialize in creating advanced Customer Relationship Management (CRM) solutions, powerful Search tools, and efficient Automation products.</p>
+    <p>The team at KA Technologies is driven by a shared vision to empower organizations and individuals through technology. They believe in harnessing the power of innovation to streamline processes, enhance productivity, and drive growth. By leveraging their comprehensive knowledge and emerging technologies, they strive to deliver high-quality, intuitive, and tailor-made solutions that transform the way businesses operate.</p>
+    <p>With a customer-centric approach, KA Technologies aims to build lasting relationships with their clients, understanding their unique requirements, and providing exceptional support throughout their journey. Their commitment to excellence, coupled with their relentless pursuit of innovation, sets them apart in the competitive tech landscape.</p>
+  </div>
+  
+  <script>
+    // Optional: Add any additional scripts here
+  </script>
+</body>
+</html>
